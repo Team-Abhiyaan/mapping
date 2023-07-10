@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+	<include file="$(find mapping)/launch/ll.launch" />
+	<include file="$(find mapping)/launch/zed_no_tf.launch" />
+</launch>
+
